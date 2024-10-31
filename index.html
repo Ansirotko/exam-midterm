@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ab76025ebf.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Tenor+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Codi</title>
+</head>
+
+<body>
+    <header class="menu">
+        <div class="site-search">
+            <input type="search" id="search-input" placeholder="Найти товар">
+            <button type="button" id="search-btn" class="fa fa-search"></i>
+        </div>
+        <a href="#" class="logo">Codi</a>
+        <nav class="personal-account">
+            <a href="#" class="personal-account__icons"><i class="fa-regular fa-heart"></i></a>
+            <a href="#" class="personal-account__icons"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="#" class="personal-account__icons"><i class="fa-regular fa-user"></i></a>
+        </nav>
+    </header>
+    <main>
+        <div class="filters">
+            <a href="#" >Каталог</a>
+            <div class="filters-sort">
+                <label for="sort">Сортировка:</label>
+                <select name="sort" id="sort">
+                <option selected value="alphabet">По алфавиту</option>
+                <option value="expensive">Сначала дорогие</option>
+                <option value="cheap">Сначала дешевые</option>
+                <option value="rating">Рейтинг</option>
+              </select>
+            </div>
+        </div>
+        <section class="shop-cards">
+        </section>
+        <p id="nothing-found"></p>
+    </main>
+    <footer id="contacts" class="container">
+        <a href="#" class="logo">Codi</a>
+        <p>ул.Мстиславца 10, Минск</p>
+        <div>
+            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <template id="item-template">
+        <div class="shop-item">
+          <img src="">
+          <div class="content">
+            <div class="tags"></div>
+            <h1></h1>
+            <span class="price"></span>
+            <div class="rating"></div>
+          </div>
+
+        </div>
+      </template>
+    <script src="script.js"></script>
+</body>
+</html>

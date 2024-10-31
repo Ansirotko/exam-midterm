@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 25px;
+    color: black;
+}
+
+body {
+    font-family: "Raleway", "Roboto";
+    text-align: center;
+    font-weight: 400;
+    background-color: rgb(227, 226, 221);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.filters {
+    padding: 40px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.72rem;
+    align-items: center;
+}
+
+.filters a {
+    color: #000000;
+    font-size: 1rem;
+}
+
+.logo {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.personal-account__icons:not(:last-child) {
+    margin-right: 25px;
+}
+
+.site-search input {
+    font-size: 0.6rem;
+    font-family: "Raleway", "Roboto";
+}
+
+.site-search button {
+    font-size: 0.6rem;
+    color: rgb(89, 5, 5);
+}
+
+.menu {
+    padding: 20px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(89, 5, 5);
+}
+
+.shop-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.shop-item {
+    width: calc((100% - 2*30px)/3);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40px;
+}
+
+.shop-item .content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.shop-item img {
+    width: 100%;
+    height: 600px;
+    flex-shrink: 20;
+    object-fit: cover;
+}
+
+.shop-item h1 {
+    font-size: 0.8rem;
+    margin: 30px 0 10px;
+    font-weight: 400;
+}
+
+.shop-item .price {
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin: 0 auto;
+}
+
+.shop-item .rating {
+    color: rgb(89, 5, 5);
+    font-size: 0.7rem;
+    margin-bottom: 25px;
+    margin-top: -20px;
+}
+
+.shop-item .tags {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(246, 244, 241);
+    font-size: 0.5rem;
+}
+
+.shop-item .tag {
+    background: var(--yellow);
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(89, 5, 5);
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    font-size: 2rem;
+}
+
+footer .logo {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 200;
+}
+
+.instagram {
+    font-size: 1.2rem;
+}
